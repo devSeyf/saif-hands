@@ -36,6 +36,33 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 }
 
 
+// Validate ../../../app/components/Services/password-generator/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/components/Services/password-generator">> = Specific
+  const handler = {} as typeof import("../../../app/components/Services/password-generator/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/components/Services/random-number-generator/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/components/Services/random-number-generator">> = Specific
+  const handler = {} as typeof import("../../../app/components/Services/random-number-generator/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/components/Services/word-counter/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/components/Services/word-counter">> = Specific
+  const handler = {} as typeof import("../../../app/components/Services/word-counter/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/">> = Specific

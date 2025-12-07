@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///home/daif/Masa%C3%BCst%C3%BC/projects/saif-hands/app/components/tools/PasswordGenerator.tsx"],"sourcesContent":["\nfunction PasswordGenerator() {\n  return (\n    <div>\n      <h2>Password Generator Tool</h2>\n      {/* Password generator implementation goes here */}\n    </div>\n  );\n}\n\nexport default PasswordGenerator;"],"names":[],"mappings":";;;;;;AACA,SAAS;IACP,qBACE,8OAAC;kBACC,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAIV;uCAEe"}},
+    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":["file:///home/daif/Masa%C3%BCst%C3%BC/projects/saif-hands/app/components/Services/random-number-generator/page.tsx"],"sourcesContent":["import WordCounter from \"../../tools/PasswordGenerator\";\nimport { Container } from \"react-bootstrap\";\n\nexport default function randomNumberGenerator() {\n  return (\n    <Container className=\"py-5\">\n      <h1 className=\"mb-4\">Word Counter</h1>\n      <WordCounter />\n    </Container>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;AACA;;;;AAEe,SAAS;IACtB,qBACE,8OAAC,2MAAS;QAAC,WAAU;;0BACnB,8OAAC;gBAAG,WAAU;0BAAO;;;;;;0BACrB,8OAAC,2JAAW;;;;;;;;;;;AAGlB"}}]
+}

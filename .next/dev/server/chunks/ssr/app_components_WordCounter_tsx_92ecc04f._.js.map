@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/daif/Masa%C3%BCst%C3%BC/projects/saif-hands/app/components/WordCounter.tsx"],"sourcesContent":["\"use client\";\n\nimport { useState } from \"react\";\n\nexport default function WordCounter() {\n  const [text, setText] = useState(\"\");\n\n  const count = text.trim().split(/\\s+/).filter(Boolean).length;\n\n  return (\n    <div>\n      <textarea\n        value={text}\n        onChange={(e) => setText(e.target.value)}\n        placeholder=\"Write text...\"\n        className=\"border p-2 w-full\"\n      ></textarea>\n\n      <p>Words: {count}</p>\n    </div>\n  );\n}\n\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS;IACtB,MAAM,CAAC,MAAM,QAAQ,GAAG,IAAA,iNAAQ,EAAC;IAEjC,MAAM,QAAQ,KAAK,IAAI,GAAG,KAAK,CAAC,OAAO,MAAM,CAAC,SAAS,MAAM;IAE7D,qBACE,8OAAC;;0BACC,8OAAC;gBACC,OAAO;gBACP,UAAU,CAAC,IAAM,QAAQ,EAAE,MAAM,CAAC,KAAK;gBACvC,aAAY;gBACZ,WAAU;;;;;;0BAGZ,8OAAC;;oBAAE;oBAAQ;;;;;;;;;;;;;AAGjB"}}]
+}
