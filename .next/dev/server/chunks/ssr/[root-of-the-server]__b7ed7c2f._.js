@@ -110,7 +110,7 @@ function Footer() {
                 children: [
                     "© ",
                     new Date().getFullYear(),
-                    " SaifHands. All rights reserved."
+                    " daif All rights reserved."
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/common/Footer/Footer.tsx",

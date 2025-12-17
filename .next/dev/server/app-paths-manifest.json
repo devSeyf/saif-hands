@@ -1,8 +1,5 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/components/Services/password-generator/page": "app/components/Services/password-generator/page.js",
-  "/components/Services/random-number-generator/page": "app/components/Services/random-number-generator/page.js",
   "/components/Services/word-counter/page": "app/components/Services/word-counter/page.js",
-  "/page": "app/page.js",
-  "/word-counter/page": "app/word-counter/page.js"
+  "/page": "app/page.js"
 }
